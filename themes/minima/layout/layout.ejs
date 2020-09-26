@@ -40,11 +40,24 @@
 
         <%- partial('partial/header', {title: 'Hi Folks'}) %>
         <%- body %>
+        <%- partial('partial/footer') %>
       </div>
 
     </div>
 
   </div>
+  <script src="<%- theme.nanobar %>"></script>
+  <script>
+    var options = {
+      classname: 'nanobar',
+      id: 'myNanobar'
+    };
+    var nanobar = new Nanobar(options);
+    nanobar.go(30);
+    nanobar.go(76);
+    nanobar.go(100);
+  </script>
+
 </body>
 
 </html>
