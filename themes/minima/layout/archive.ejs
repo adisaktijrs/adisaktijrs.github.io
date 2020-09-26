@@ -1,0 +1,17 @@
+
+<h5>Semua tulisan</h5>
+
+<% page.posts.each(function(post) { %>
+    <article>
+      <div class="row">
+
+        <div class="three columns left lit">
+          <p class="bottom"><%- full_date(post.date, 'll') %></p>
+        </div>
+        <div class="nine columns left mb-3">
+          <a href="<%- url_for(post.permalink) %>" class=""><%- post.title %></a>
+        </div>
+      </div>
+    </article>
+<% }) %>
+<%- partial('partial/pagination', {type: 'page'}) %>
