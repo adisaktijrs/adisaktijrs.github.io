@@ -6,6 +6,11 @@ img {
   margin-left: 0;
 }
 
+.lit {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .ml {
   margin-left: 2rem;
 }
@@ -25,6 +30,9 @@ img {
 }
 .mb-2 {
   margin-bottom: 5px;
+}
+.mb-3 {
+  margin-bottom: 20px;
 }
 
 
