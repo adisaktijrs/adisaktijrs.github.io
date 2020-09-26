@@ -11,6 +11,14 @@ img {
   font-weight: 300;
 }
 
+.little-svg {
+  fill: #fff;
+}
+
+.ml-0 {
+  margin-left: 1rem;
+
+}
 .ml {
   margin-left: 2rem;
 }
@@ -35,6 +43,9 @@ img {
   margin-bottom: 20px;
 }
 
+.mr {
+  margin-right: 32px;
+}
 
 .mt-0 {
   margin-top: 0px;
@@ -53,6 +64,14 @@ img {
   cursor: pointer;
 }
 
+.text-center {
+  text-align: center;
+}
+
+/* Nanobar */
+.nanobar .bar {
+  background:#0FA0CE;
+}
 
 /* Dark mode */
 body {
