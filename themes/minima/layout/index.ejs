@@ -9,10 +9,10 @@
 <% site.posts.sort('date', 'desc').forEach(function(post){ %>
 <div class="row">
 
-  <div class="three columns left">
+  <div class="three columns left lit">
     <p class="bottom"><%- full_date(post.date, 'll') %></p>
   </div>
-  <div class="nine columns left">
+  <div class="nine columns left mb-3">
     <a href="<%- url_for(post.permalink) %>" class=""><%- post.title %></a>
   </div>
 </div>
