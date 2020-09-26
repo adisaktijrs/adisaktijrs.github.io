@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adi Sakti Jrs Blog Space</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<link rel="stylesheet" href="/css/normalize.css">
+
+  
+<link rel="stylesheet" href="/css/skeleton.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+<link rel="stylesheet" href="/css/prism-dark.css">
+
+  
+<link rel="stylesheet" href="/css/prism-line-numbers.css">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="eight columns  offset-by-two">
+
+        <div class="row">
+  <div class="two columns" style="max-width: 50px">
+
+    <h4 class="mt-2 mode">
+      <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
+      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>🌝</div>
+    </h4>
+
+  </div>
+
+  <div class="six columns ml-1" style="max-width: 200px">
+    <h4 class="mt-2">
+      Hi Folks
+    </h4>
+  </div>
+
+  <div class="twelve columns">
+
+    <div class="row">
+      <div class="nine columns left">
+        <a href="/" class="link">Beranda</a>
+    
+        <a href="http://localhost:4000/karya/" class="ml link">Karya</a>
+        
+        <a href="http://localhost:4000/tentang/" class="ml link">Tentang</a>
+        
+      </div>
+    </div>
+
+    <hr>
+  </div>
+</div>
+
+
+<script>
+  if (localStorage.getItem('preferredTheme') == 'dark') {
+    setDarkMode(true)
+  }
+
+  function setDarkMode(isDark) {
+    var darkBtn = document.getElementById('darkBtn')
+    var lightBtn = document.getElementById('lightBtn')
+    if (isDark) {
+      lightBtn.style.display = "block"
+      darkBtn.style.display = "none"
+      localStorage.setItem('preferredTheme', 'dark');
+    } else {
+      lightBtn.style.display = "none"
+      darkBtn.style.display = "block"
+      localStorage.removeItem('preferredTheme');
+    }
+    document.body.classList.toggle("darkmode");
+
+  }
+</script>
+
+        <div class="twelve columns">
+  <h4>post-b</h4>
+  <p>Sep 25, 2020</p>
+  <h5 id="Code-yang-digunakan"><a href="#Code-yang-digunakan" class="headerlink" title="Code yang digunakan"></a>Code yang digunakan</h5><p>Ini merupakan code yang harus disisipkan ke dalam</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> _self <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> window <span class="token operator">!==</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span>
+	<span class="token operator">?</span> window   <span class="token comment">// if in browser</span>
+	<span class="token operator">:</span> <span class="token punctuation">(</span>
+		<span class="token punctuation">(</span><span class="token keyword">typeof</span> WorkerGlobalScope <span class="token operator">!==</span> <span class="token string">'undefined'</span> <span class="token operator">&amp;&amp;</span> self <span class="token keyword">instanceof</span> <span class="token class-name">WorkerGlobalScope</span><span class="token punctuation">)</span>
+		<span class="token operator">?</span> self <span class="token comment">// if in worker</span>
+		<span class="token operator">:</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span>   <span class="token comment">// if in node js</span>
+	<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+server<span class="token punctuation">&#123;</span>
+    listen <span class="token number">443</span><span class="token punctuation">;</span>
+    server_name xxoo<span class="token punctuation">.</span>lol<span class="token punctuation">;</span>
+    ssl on<span class="token punctuation">;</span>
+    ssl_certificate <span class="token operator">/</span>usr<span class="token operator">/</span>local<span class="token operator">/</span>nginx<span class="token operator">/</span>conf<span class="token operator">/</span>vhost<span class="token operator">/</span>ca<span class="token operator">/</span>xxoo<span class="token punctuation">.</span>lol<span class="token punctuation">.</span>crt<span class="token punctuation">;</span>
+    ssl_certificate_key <span class="token operator">/</span>usr<span class="token operator">/</span>local<span class="token operator">/</span>nginx<span class="token operator">/</span>conf<span class="token operator">/</span>vhost<span class="token operator">/</span>ca<span class="token operator">/</span>xxoo<span class="token punctuation">.</span>lol<span class="token punctuation">.</span>key<span class="token punctuation">;</span>
+    ssl_protocols SSLv3 TLSv1<span class="token punctuation">;</span>
+    ssl_ciphers <span class="token constant">ALL</span><span class="token operator">:</span><span class="token operator">-</span><span class="token constant">ADH</span><span class="token operator">:</span><span class="token operator">+</span><span class="token constant">HIGH</span><span class="token operator">:</span><span class="token operator">+</span><span class="token constant">MEDIUM</span><span class="token operator">:</span><span class="token operator">-</span><span class="token constant">LOW</span><span class="token operator">:</span><span class="token operator">-</span>SSLv2<span class="token operator">:</span><span class="token operator">-</span><span class="token constant">EXP</span><span class="token punctuation">;</span>
+
+    location <span class="token operator">/</span> <span class="token punctuation">&#123;</span>
+        proxy_redirect off<span class="token punctuation">;</span>
+        proxy_set_header <span class="token constant">X</span><span class="token operator">-</span>Real<span class="token operator">-</span><span class="token constant">IP</span> $remote_addr<span class="token punctuation">;</span>
+        proxy_set_header <span class="token constant">X</span><span class="token operator">-</span>Forwarded<span class="token operator">-</span>For $proxy_add_x_forwarded_for<span class="token punctuation">;</span>
+        proxy_set_header <span class="token constant">X</span><span class="token operator">-</span>Forwarded<span class="token operator">-</span>Proto https<span class="token punctuation">;</span>
+        proxy_pass https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>www<span class="token punctuation">.</span>google<span class="token punctuation">.</span>com<span class="token punctuation">.</span>hk<span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

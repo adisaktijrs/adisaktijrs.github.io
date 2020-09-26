@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adi Sakti Jrs Blog Space</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<link rel="stylesheet" href="/css/normalize.css">
+
+  
+<link rel="stylesheet" href="/css/skeleton.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+<link rel="stylesheet" href="/css/prism-dark.css">
+
+  
+<link rel="stylesheet" href="/css/prism-line-numbers.css">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="eight columns  offset-by-two">
+
+        <div class="row">
+  <div class="two columns" style="max-width: 50px">
+
+    <h4 class="mt-2 mode">
+      <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
+      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>🌝</div>
+    </h4>
+
+  </div>
+
+  <div class="six columns ml-1" style="max-width: 200px">
+    <h4 class="mt-2">
+      Hi Folks
+    </h4>
+  </div>
+
+  <div class="twelve columns">
+
+    <div class="row">
+      <div class="nine columns left">
+        <a href="/" class="link">Beranda</a>
+    
+        <a href="http://localhost:4000/karya/" class="ml link">Karya</a>
+        
+        <a href="http://localhost:4000/tentang/" class="ml link">Tentang</a>
+        
+      </div>
+    </div>
+
+    <hr>
+  </div>
+</div>
+
+
+<script>
+  if (localStorage.getItem('preferredTheme') == 'dark') {
+    setDarkMode(true)
+  }
+
+  function setDarkMode(isDark) {
+    var darkBtn = document.getElementById('darkBtn')
+    var lightBtn = document.getElementById('lightBtn')
+    if (isDark) {
+      lightBtn.style.display = "block"
+      darkBtn.style.display = "none"
+      localStorage.setItem('preferredTheme', 'dark');
+    } else {
+      lightBtn.style.display = "none"
+      darkBtn.style.display = "block"
+      localStorage.removeItem('preferredTheme');
+    }
+    document.body.classList.toggle("darkmode");
+
+  }
+</script>
+
+        <div class="twelve columns">
+  <h4>Post Percobaan dengan Gambar</h4>
+  <p>Sep 26, 2020</p>
+  <img src="/2020/09/26/Post-Percobaan-dengan-Gambar/ini-gambar.jpeg" class="" title="gambar dunia">
+<p><br>Nah ini merupakan post dengan gambar<br>Netah</p>
+
+</div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
