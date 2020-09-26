@@ -1,0 +1,19 @@
+<div class="row ">
+  <div class="column">
+    <h4 class="mb-2">Saya Adi Sakti Jrs</h4>
+    <p>Pelajar dan pengembang web</p>
+    <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  </div>
+</div>
+
+<% site.posts.sort('date', 'desc').forEach(function(post){ %>
+<div class="row">
+
+  <div class="three columns left">
+    <p class="bottom"><%- full_date(post.date, 'll') %></p>
+  </div>
+  <div class="nine columns left">
+    <a href="<%- url_for(post.permalink) %>" class=""><%- post.title %></a>
+  </div>
+</div>
+<% }) %>
