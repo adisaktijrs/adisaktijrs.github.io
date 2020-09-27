@@ -7,3 +7,6 @@ twitter: https://twitter.com/adisaktijrs
 
 # js
 nanobar: /js/nanobar.min.js
+
+# favicon
+favicon: /images/favicon.png

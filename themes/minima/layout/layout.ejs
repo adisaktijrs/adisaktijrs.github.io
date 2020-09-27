@@ -6,9 +6,34 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Adi Sakti Jrs Blog Space</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+
+  <%
+  if (!config.author) {
+    config.author = ""
+  }
+
+  var title = title = config.title;
+  if (is_archive()){
+    title = 'Semua Tulisan - ' + config.author;
+  } else if (is_post()){
+    title = page.title;
+  } else if (is_page()){
+    title = page.title + ' - ' + config.author;
+  } else if (is_tag()){
+    title = 'Tulisan Tentang ' + page.tag;
+  }
+  %>
+  <title><%= title %></title>
+
+  <% if (is_page()){ %>
+  <meta name="description" content="<%= page.description %>">
+  <% } else if (page.content){ %>
+  <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+  <% } else { %>
+  <meta name="description" content="<%= config.description %>">
+  <% } %>
+
+  <meta name="author" content="<%- config.author %>">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,7 +54,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="<%- theme.favicon %>">
 
 </head>
 

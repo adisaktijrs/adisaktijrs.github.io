@@ -1,7 +1,7 @@
 ---
 title: post-b
 date: 2020-09-25 17:41:29
-tags:
+tags: [tag1]
 ---
 
 ##### Code yang digunakan
@@ -15,7 +15,7 @@ var _self = (typeof window !== 'undefined')
 		? self // if in worker
 		: {}   // if in node js
 	);
-  
+
 server{
     listen 443;
     server_name xxoo.lol;

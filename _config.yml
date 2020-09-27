@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Adi Sakti Jrs Blog Space
+title: Adi Sakti Jrs - Blog Space
 subtitle: 'Pengembang web dan pelajar'
-description: ''
+description: 'pelajar dan pengembang web'
 keywords:
-author: Adi Sakti Jrs
+author: 'Adi Sakti Jrs'
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://localhost:4000 #http://adisaktijrs.github.io/
+url: https://adisaktijrs.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
