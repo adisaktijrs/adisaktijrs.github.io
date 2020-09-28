@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://adisaktijrs.github.io/
+url: https://adisaktijrs.github.io/ #http://localhost:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,3 +104,7 @@ theme: minima
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# DISQUS comments
+disqus_enabled: true
+disqus_shortname: https-adisaktijrs-github-io

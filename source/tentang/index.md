@@ -19,6 +19,6 @@ Saya mulai menyukai blogging sejak kelas II Sekolah Menengah Atas. Dulu saya men
 
 Saat memasuki bangku kuliah saya berpindah ke [WordPress](https://wordpress.com/) sebagai tempat blogging, dan pada saat itulah saya pertama kali tau tentang bahasa pemrograman. Bahasa yang pertama saya pelajari adalah [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)).
 
-Lalu, saat ini saya memutuskan untuk mengganti platform blogging saya ke situs statis untuk menggantikan blog saya sebelumnya. Saya menggunakan Hexo sebagai platform blogging yang sekaligus secara otomatis menghasilkan situs statis dan bisa ditempatkan di hosting [GitHub Pages](https://pages.github.com/). Theme yang saya gunakan ini saya sebut Minima (representasi dari desain minimalis) yang saya kembangkan sendiri.
+Lalu, saat ini saya memutuskan untuk mengganti platform blogging saya ke situs statis untuk menggantikan [blog saya](https://adisaktijrs.wordpress.com/) sebelumnya. Saya menggunakan Hexo sebagai platform blogging yang sekaligus secara otomatis menghasilkan situs statis dan bisa ditempatkan di hosting [GitHub Pages](https://pages.github.com/). Theme yang saya gunakan ini saya sebut Minima (representasi dari desain minimalis) yang saya kembangkan sendiri.
 
 Nah, semoga apa yang saya tuliskan melalui blog ini memberikan manfaat meskipun sedikit. Terakhir, let's stay in touch melalui sosial media. Salam 😁

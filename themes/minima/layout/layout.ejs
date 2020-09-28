@@ -35,6 +35,10 @@
 
   <meta name="author" content="<%- config.author %>">
 
+  <% if (is_post()) { %>
+    <meta property="og:image" content="<%- page.thumbnail %>" >
+  <% } %>
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -10,3 +10,6 @@ nanobar: /js/nanobar.min.js
 
 # favicon
 favicon: /images/favicon.png
+
+article:
+    thumbnail: true
