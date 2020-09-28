@@ -57,6 +57,9 @@ img {
 .mt-2 {
   margin-top: 3rem;
 }
+.mt-3 {
+  margin-top: 4rem;
+}
 
 .mx-auto {
   margin: auto;
@@ -70,6 +73,9 @@ img {
 
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 
 .tag-link {
@@ -94,4 +100,14 @@ body.darkmode {
 
 .hidden{
     display: none;
+}
+
+.posisi {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .posisi {
+    text-align: right;
+  }
 }
