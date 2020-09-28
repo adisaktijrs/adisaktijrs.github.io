@@ -36,7 +36,7 @@
   <meta name="author" content="<%- config.author %>">
 
   <% if (is_post()) { %>
-    <meta property="og:image" content="<%-config.url + "/" + page.path + page.thumbnail %>" >
+  <meta property="og:image" content="<%-config.url + "/" + page.path + page.thumbnail %>">
   <% } %>
 
   <!-- Mobile Specific Metas
@@ -45,6 +45,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- CSS
@@ -67,9 +68,11 @@
     <div class="row">
       <div class="eight columns  offset-by-two">
 
-        <%- partial('partial/header', {title: 'Hi Folks'}) %>
-        <%- body %>
-        <%- partial('partial/footer') %>
+        <%- partial('partial/header', {title: 'Hi Folks.'}) %>
+        <div class="trans">
+          <%- body %>
+          <%- partial('partial/footer') %>
+        </div>
       </div>
 
     </div>
