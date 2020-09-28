@@ -36,7 +36,7 @@
   <meta name="author" content="<%- config.author %>">
 
   <% if (is_post()) { %>
-    <meta property="og:image" content="<%- page.thumbnail %>" >
+    <meta property="og:image" content="<%-config.url + "/" + page.path + page.thumbnail %>" >
   <% } %>
 
   <!-- Mobile Specific Metas
