@@ -1,5 +1,7 @@
 img {
-  max-width: 100%
+  max-width: 100%;
+  animation: transitionPlay 1.1s;
+
 }
 
 .center {
@@ -21,8 +23,8 @@ img {
 
 .ml-0 {
   margin-left: 1rem;
-
 }
+
 .ml {
   margin-left: 2rem;
 }
@@ -40,9 +42,11 @@ img {
 .mb-1 {
   margin-bottom: 0px;
 }
+
 .mb-2 {
   margin-bottom: 5px;
 }
+
 .mb-3 {
   margin-bottom: 20px;
 }
@@ -54,9 +58,11 @@ img {
 .mt-0 {
   margin-top: 0px;
 }
+
 .mt-2 {
   margin-top: 3rem;
 }
+
 .mt-3 {
   margin-top: 4rem;
 }
@@ -74,6 +80,7 @@ img {
 .text-center {
   text-align: center;
 }
+
 .text-right {
   text-align: right;
 }
@@ -84,44 +91,50 @@ img {
 
 /* Nanobar */
 .nanobar .bar {
-  background:#0FA0CE;
+  background: #0FA0CE;
 }
 
 /* Dark mode */
 body {
-
   transition: all 0.3s ease-in-out;
 }
+
 .trans {
-  animation: transitionPlay 1.5s;
+  animation: transitionPlay 0.7s;
 }
+
 
 @keyframes transitionPlay {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
 
   to {
     opacity: 1;
+    transform: none;
   }
 }
 
 body.darkmode {
-    background: rgb(34, 34, 38);
-    color: rgb(256, 256, 256);
+  background: rgb(34, 34, 38);
+  color: rgb(256, 256, 256);
 }
 
-
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
 .posisi {
   text-align: center;
 }
 
+
+
 @media (min-width: 550px) {
   .posisi {
     text-align: right;
   }
+
+
 }
