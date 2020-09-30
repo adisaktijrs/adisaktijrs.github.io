@@ -16,11 +16,9 @@
     <div class="row">
       <div class="nine columns left">
         <a href="/" class="link">Beranda</a>
-        <% site.pages.sort('name', 'desc').forEach(function(page){ %>
-          <% if (page.title !== "404") { %>
-            <a href="<%- url_for(page.path) %>" class="ml link"><%- page.title %></a>
-          <% } %>
-        <% }) %>
+        <% for (name in theme.menu) { %>
+          <a href="<%- url_for(theme.menu[name]) %>" class="ml link"><%- name %></a>
+        <% } %>
       </div>
     </div>
     <hr>

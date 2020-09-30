@@ -1,3 +1,7 @@
+#menu
+menu:
+  Karya: /karya
+  Tentang: /tentang
 
 # social profile at the footer/bottom
 place: https://www.google.com/search?q=kendal+jawa+tengah
@@ -11,5 +15,8 @@ nanobar: /js/nanobar.min.js
 # favicon
 favicon: /images/favicon.png
 
+# main image
+main: /images/epic.jpg
+
 article:
-    thumbnail: true
+  thumbnail: true
