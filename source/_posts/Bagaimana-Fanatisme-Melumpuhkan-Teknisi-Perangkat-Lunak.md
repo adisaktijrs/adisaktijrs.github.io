@@ -7,7 +7,7 @@ thumbnail: sign.jpg
 {% asset_img sign.jpg "Ilustrasi tentang pilihan" %}
 Photo by Robin Glauser on Unsplash
 
-Saya ingat ketika pertama kali membuka laman dokumetasi dari Express, framework dari Node.js yang menggunakan Static Site Generator (SSG). Karena saya penasaran dengan framework SSG apa yang mereka gunakan, maka saya melihat ke laman GitHub mereka. Dan di situ saya agak kaget. Kurang lebih ini yang saya pikirkan dalam kepala saya:
+Saya ingat ketika pertama kali membuka laman dokumetasi dari [Express](http://expressjs.com/), framework dari Node.js yang menggunakan Static Site Generator (SSG). Karena saya penasaran dengan framework SSG apa yang mereka gunakan, maka saya melihat ke laman GitHub mereka. Dan di situ saya agak kaget. Kurang lebih ini yang saya pikirkan dalam kepala saya:
 
 {% blockquote %}
 Lah, kok pakainya Jekyll? Itu kan SSG dari bahasa Ruby. Kenapa engga pakai yang dari ekosistem JavaScript, padahal banyak juga SSG-nya.
