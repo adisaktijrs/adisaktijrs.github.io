@@ -104,7 +104,3 @@ theme: minima
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-# DISQUS comments
-disqus_enabled: true
-disqus_shortname: https-adisaktijrs-github-io

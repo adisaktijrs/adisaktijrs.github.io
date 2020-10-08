@@ -1,4 +1,4 @@
-<% if (config.disqus_enabled && config.disqus_shortname){ %>
+<% if (theme.disqus_enabled && theme.disqus_shortname){ %>
   <hr>
 <section id="comments" class="mt-2 mb-3">
 
@@ -21,7 +21,7 @@
 
         var d = document,
           s = d.createElement('script');
-        s.src = 'https://<%= config.disqus_shortname %>.disqus.com/embed.js';
+        s.src = 'https://<%= theme.disqus_shortname %>.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       }

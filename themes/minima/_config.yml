@@ -20,3 +20,7 @@ main: /images/epic.jpg
 
 article:
   thumbnail: true
+
+# DISQUS comments
+disqus_enabled: true
+disqus_shortname: https-adisaktijrs-github-io
