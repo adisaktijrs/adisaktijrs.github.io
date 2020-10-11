@@ -1,14 +1,15 @@
 <div class="row ">
   <div class="column">
-    <h4 class="mb-2">Saya Adi Sakti Jrs</h4>
-    <p>Seorang pelajar dan pengembang web</p>
-    <p>Saya menyukai desain, novel, dan pengembangan web. Di sini saya akan membagikan tulisan berupa cerita, opini, dan sekaligus dokumentasi pribadi ketika saya sedang belajar hal baru. Selamat membaca kawan! 😁</p>
+    <!-- Main information, edit it on theme/_config.yml -->
+    <h4 class="mb-2"><%= theme.owner %></h4>
+    <p><%= theme.info %></p>
+    <p><%= theme.desc %></p>
   </div>
 </div>
 
-<h5>Tulisan terbaru</h5>
+<h5>Tulisan Terbaru</h5>
 
-<% site.posts.sort('date', 'desc').limit(3).forEach(function(post){ %>
+<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
 <div class="row">
 
   <div class="three columns left lit">
