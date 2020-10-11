@@ -54,7 +54,7 @@ theme: minima
 
 {% endcodeblock %}
 1. That's all. To fully configure the Minima theme, follow the Configuration steps below!
-&nbsp;
+
 ##### Site Configuration
 ###### Code Highlighting
 Minima use Prism.js to highlight the code. So **modify the _config.yml of your site** to somewhat like this below:
