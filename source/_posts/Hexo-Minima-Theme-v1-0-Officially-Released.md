@@ -1,5 +1,5 @@
 ---
-title: Hexo Minima Theme v1.0 Officially Released
+title: Hexo Minima Theme v1.0 is Officially Released
 date: 2020-10-11 10:09:47
 tags: [Product]
 thumbnail: minima.jpg
@@ -9,37 +9,37 @@ Minima preview, device image by Freepik
 
 - Demo [here](https://adisaktijrs.github.io/minima)
 - GitHub repository [here](https://github.com/adisaktijrs/hexo-theme-minima) (leave a star if you like it 😁)
-- Download the stable release here
 
 ##### About Minima
-Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries.
+Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using [Skeleton CSS](http://getskeleton.com/) boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries.
 
 ###### Simplicity
-Simplicity means everything! When I decided to move to Hexo for my personal blogging platform, the main reason was to find a simple and clean design, no fancy looks, unnecessary images and colors either. I'd like to have a blog that focuses on the content of my posts rather than turning readers attention to a 'cluttered' user interface. I found lots of beautiful themes on the Hexo themes page, but finally I decided to make my own.
+Simplicity is a must! When I decided to move to Hexo for my personal blogging platform, the main reason was to find a simple and clean design, no fancy looks, unnecessary images and colors either. I'd like to have a blog that focuses on the content of my posts rather than turning readers attention to a 'cluttered' user interface. I found lots of beautiful themes on the Hexo themes page, but finally I decided to make my own.
 
 ###### Lightweight
-This 'lightweight' means the theme uses as few design stuff as possible. Fewer JavaScript and CSS files. Minima only uses Skeleton for the CSS-boilerplate and nanobar.js for the top loading bar. The following is the 'gross' size of my blog with the Minima theme:
+This 'lightweight' means the theme uses as few design stuff as possible. Fewer JavaScript and CSS files. Minima only uses Skeleton for the CSS-boilerplate and [nanobar.js](https://nanobar.jacoborus.codes/) for the top loading bar. The following is the 'gross' performance of my blog with the Minima theme:
 
 ![](Screenshot.png)
 
 ###### Customization
-Minima uses vanilla JavaScript, vanilla CSS, and EJS. So it will be very easy for everyone to edit and customize the theme.
+Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it will be very easy for everyone to edit and customize the theme.
 
 ##### Features
 - Pass the core of [Hexo Theme Unit Test](https://github.com/hexojs/hexo-theme-unit-test)
 - Fully responsive design
 - Support post, page, tags, archives, and pagination
 - SEO: post meta description and images (appears in Facebook/Twitter shared-link)
-- Post thumbnail image
+- Dark/light mode instant switch 🌚/🌝
 - Code highlighting with [Prism.js](https://prismjs.com/)
 - [Disqus](https://disqus.com/) for post comments
+- Button for show comments section for faster posts loading
 ***
 #### Documentation
 ##### Quick Start
 Use the **stable** version
-1. Download the stable version here. And rename the folder to minima and place it in the themes folder of your Hexo blog
+1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip). And rename the folder to minima and place it in the themes folder of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
 
-Or you can use the **latest** version&nbsp;
+Or you can use the **development** version&nbsp;
 1. Execute this command in your terminal (at your Hexo blog root dir):
 ```
 git clone https://github.com/adisaktijrs/hexo-theme-minima.git themes/minima
@@ -148,3 +148,5 @@ disqus_shortname: https-adisaktijrs-github-io
 &nbsp;
 ##### Footnote from me
 Thanks for using Minima for your Hexo blog theme. Hope you like it. If you have any problems with this theme you can ask me in the comments section below. And if you want to contribute to Minima just go ahead fork and make a pull request! 😁
+
+October 11: Anyway this theme PR to Hexo themes page is currently under review.
