@@ -143,7 +143,7 @@ About MinimaMinima is an undoubtedly simpl">
 <hr>
 <h4 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h4><h5 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h5><p>Use the <strong>stable</strong> version</p>
 <ol>
-<li>Download the <a target="_blank" rel="noopener" href="https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip">stable version here</a>. And rename the folder to minima and place it in the themes folder of your Hexo blog. New to Hexo? Watch this <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=A-muxF_6plc">tutorial</a></li>
+<li>Download the <a target="_blank" rel="noopener" href="https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip">stable version here</a>. And <strong>rename the folder to minima</strong> and place it at the <strong>themes folder</strong> of your Hexo blog. New to Hexo? Watch this <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=A-muxF_6plc">tutorial</a></li>
 </ol>
 <p>Or you can use the <strong>development</strong> version&nbsp;</p>
 <ol>
@@ -156,7 +156,7 @@ theme<span class="token operator">:</span> minima
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 <li>That’s all. To fully configure the Minima theme, follow the Configuration steps below!</li>
 </ol>
-<h5 id="Site-Configuration"><a href="#Site-Configuration" class="headerlink" title="Site Configuration"></a>Site Configuration</h5><h6 id="Code-Highlighting"><a href="#Code-Highlighting" class="headerlink" title="Code Highlighting"></a>Code Highlighting</h6><p>Minima use Prism.js to highlight the code. So <strong>modify the _config.yml of your site</strong> to somewhat like this below:</p>
+<h5 id="Site-Configuration"><a href="#Site-Configuration" class="headerlink" title="Site Configuration"></a>Site Configuration</h5><h6 id="Code-Highlighting"><a href="#Code-Highlighting" class="headerlink" title="Code Highlighting"></a>Code Highlighting</h6><p>Minima uses Prism.js to highlight the code. So <strong>modify the _config.yml of your site</strong> to somewhat like this below:</p>
 <pre class="line-numbers language-none"><div class="caption"><span>_config.yml</span></div><code class="language-none">
 highlight:
   enable: false #set it to false
@@ -175,12 +175,12 @@ prismjs:
 <pre class="line-numbers language-none"><code class="language-none">$ hexo clean
 $ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>&nbsp;</p>
-<h6 id="SEO-Image-Thumbnail-for-Shared-link"><a href="#SEO-Image-Thumbnail-for-Shared-link" class="headerlink" title="SEO Image Thumbnail for Shared-link"></a>SEO Image Thumbnail for Shared-link</h6><p>Minima use meta data for image preview when your Post link share to social media. Here the example when you share your Post link to Twitter:<br><img src="Screenshot2.png"><br>To do that you must modify your post_asset_folder to true in your site _config.yml. See below:</p>
+<h6 id="SEO-Image-Thumbnail-for-Shared-link"><a href="#SEO-Image-Thumbnail-for-Shared-link" class="headerlink" title="SEO Image Thumbnail for Shared-link"></a>SEO Image Thumbnail for Shared-link</h6><p>Minima uses meta data for image preview when your Post link is shared to social media. Here the example when you share your Post link to Twitter:<br><img src="Screenshot2.png"><br>To do that you must modify your <strong>post_asset_folder variable</strong> to true in your site _config.yml. See below:</p>
 <pre class="line-numbers language-none"><div class="caption"><span>_config.yml</span></div><code class="language-none"># Writing
 
 post_asset_folder: true #set it to true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<p>And then whenever you make a post, add thumbnail in your post .md file. See the example post:</p>
+<p>And then whenever you make a post, <strong>add thumbnail</strong> in your post .md file. See the example post below:</p>
 <pre class="line-numbers language-js" data-language="js"><div class="caption"><span>/source/_posts/your-post.md</span></div><code class="language-js"><span class="token operator">--</span><span class="token operator">-</span>
 title<span class="token operator">:</span> Your Post
 date<span class="token operator">:</span> <span class="token number">2020</span><span class="token operator">-</span><span class="token number">10</span><span class="token operator">-</span><span class="token number">11</span> <span class="token number">10</span><span class="token operator">:</span><span class="token number">09</span><span class="token operator">:</span><span class="token number">47</span>
@@ -188,7 +188,7 @@ tags<span class="token operator">:</span> <span class="token punctuation">[</spa
 thumbnail<span class="token operator">:</span> YourImage<span class="token punctuation">.</span>jpg #Here is the image preview
 <span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>Learn more about it <a target="_blank" rel="noopener" href="https://hexo.io/docs/asset-folders.html">here.</a><br>&nbsp;</p>
-<h5 id="Theme-Configuration"><a href="#Theme-Configuration" class="headerlink" title="Theme Configuration"></a>Theme Configuration</h5><p>You can customize many elements in your Minima blog by change the variable in minima/_config.yml:</p>
+<h5 id="Theme-Configuration"><a href="#Theme-Configuration" class="headerlink" title="Theme Configuration"></a>Theme Configuration</h5><p>You can customize many elements in your Minima blog by changing some variables in <strong>minima/_config.yml</strong>:</p>
 <pre class="line-numbers language-js" data-language="js"><div class="caption"><span>/themes/minima/_config.yml</span></div><code class="language-js">#title <span class="token keyword">in</span> header
 title<span class="token operator">:</span> <span class="token string">"Hi Folks."</span>
 
@@ -228,8 +228,8 @@ disqus_shortname<span class="token operator">:</span> https<span class="token op
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>&nbsp;</p>
-<h5 id="Footnote-from-me"><a href="#Footnote-from-me" class="headerlink" title="Footnote from me"></a>Footnote from me</h5><p>Thanks for using Minima for your Hexo blog theme. Hope you like it. If you have any problems with this theme you can ask me in the comments section below. And if you want to contribute to Minima just go ahead fork and make a pull request! 😁</p>
-<p>October 11: Anyway this theme PR to Hexo themes page is currently under review.</p>
+<h5 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote:"></a>Footnote:</h5><p>Thanks for using Minima for your Hexo blog theme. Hope you’ll like it. If you have any problems with this theme you can ask me at the comments section below. And if you want to contribute to Minima, go ahead, fork and make a pull request! 😁</p>
+<p>October 12: Anyway this theme PR to Hexo themes page is currently under review.</p>
 
   <p><a class="classtest-link" href="/tags/Product/" rel="tag">Product</a> — Oct 11, 2020</p>
   
