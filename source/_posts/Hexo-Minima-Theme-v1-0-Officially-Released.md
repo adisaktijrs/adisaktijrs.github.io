@@ -37,7 +37,7 @@ Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it w
 #### Documentation
 ##### Quick Start
 Use the **stable** version
-1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip). And rename the folder to minima and place it in the themes folder of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
+1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip). And **rename the folder to minima** and place it at the **themes folder** of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
 
 Or you can use the **development** version&nbsp;
 1. Execute this command in your terminal (at your Hexo blog root dir):
@@ -57,7 +57,7 @@ theme: minima
 
 ##### Site Configuration
 ###### Code Highlighting
-Minima use Prism.js to highlight the code. So **modify the _config.yml of your site** to somewhat like this below:
+Minima uses Prism.js to highlight the code. So **modify the _config.yml of your site** to somewhat like this below:
 {% codeblock "_config.yml" %}
 
 highlight:
@@ -82,16 +82,16 @@ $ hexo server
 ```
 &nbsp;
 ###### SEO Image Thumbnail for Shared-link
-Minima use meta data for image preview when your Post link share to social media. Here the example when you share your Post link to Twitter:
+Minima uses meta data for image preview when your Post link is shared to social media. Here the example when you share your Post link to Twitter:
 ![](Screenshot2.png)
-To do that you must modify your post_asset_folder to true in your site _config.yml. See below:
+To do that you must modify your **post_asset_folder variable** to true in your site _config.yml. See below:
 {% codeblock "_config.yml" %}
 # Writing
 
 post_asset_folder: true #set it to true
 {% endcodeblock %}
 
-And then whenever you make a post, add thumbnail in your post .md file. See the example post:
+And then whenever you make a post, **add thumbnail** in your post .md file. See the example post below:
 {% codeblock "/source/_posts/your-post.md" lang:js %}
 ---
 title: Your Post
@@ -104,7 +104,7 @@ Learn more about it [here.](https://hexo.io/docs/asset-folders.html)
 &nbsp;
 
 ##### Theme Configuration
-You can customize many elements in your Minima blog by change the variable in minima/_config.yml:
+You can customize many elements in your Minima blog by changing some variables in **minima/_config.yml**:
 {% codeblock "/themes/minima/_config.yml" lang:js %}
 #title in header
 title: "Hi Folks."
@@ -146,7 +146,7 @@ disqus_shortname: https-adisaktijrs-github-io
 {% endcodeblock %}
 
 &nbsp;
-##### Footnote from me
-Thanks for using Minima for your Hexo blog theme. Hope you like it. If you have any problems with this theme you can ask me in the comments section below. And if you want to contribute to Minima just go ahead fork and make a pull request! 😁
+##### Footnote:
+Thanks for using Minima for your Hexo blog theme. Hope you'll like it. If you have any problems with this theme you can ask me at the comments section below. And if you want to contribute to Minima, go ahead, fork and make a pull request! 😁
 
-October 11: Anyway this theme PR to Hexo themes page is currently under review.
+October 12: Anyway this theme PR to Hexo themes page is currently under review.
