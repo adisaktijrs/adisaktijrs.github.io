@@ -142,7 +142,7 @@ body {
 }
 
 body.darkmode {
-  background: rgb(34, 34, 38);
+  background: #101010;
   color: rgb(256, 256, 256);
 }
 
