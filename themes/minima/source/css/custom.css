@@ -142,8 +142,8 @@ body {
 }
 
 body.darkmode {
-  background: #101010;
-  color: rgb(256, 256, 256);
+  background: #222831;
+  color: #eeeeee;
 }
 
 .hidden {
