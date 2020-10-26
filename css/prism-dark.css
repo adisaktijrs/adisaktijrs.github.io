@@ -9,7 +9,7 @@ pre[class*="line-numbers language-"] {
 	color: white;
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -36,7 +36,7 @@ pre[class*="line-numbers language-"] {
 
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
-	background: #252C37;
+	background: #214252;
 }
 
 /* Code blocks */
