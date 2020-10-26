@@ -2,9 +2,9 @@
 title: Keadaan Sekarang
 date: 2020-10-25 21:22:08
 tags: [Cerita]
-thumbnail: keadaan.jpg
+thumbnail: keadaan1.jpg
 ---
-{% asset_img keadaan.jpg "Zhang Kenny" %}
+{% asset_img keadaan1.jpg "Zhang Kenny" %}
 Photo by Zhang Kenny on Unsplash
 
 Bismillah,
@@ -17,7 +17,7 @@ Tiga bulan ini saya habiskan untuk belajar banyak hal, terkadang keterbatasan ju
 
 Saya bersyukur masih ada sedikit jaringan internet yang ada di sini kalau saya letakkan handphone di luar dan menjadikannya sebagai wifi, itu juga alasan mengapa saya jarangan update dengan media sosial dan lebih produktif di depan laptop saya rasa.
 
-##### Sedang Dikerjakan
+### Sedang Dikerjakan
 Saya bersyukur bisnis desain yang saya tekuni sejak kelas KWU awal tahun ini masih berjalan dengan baik. Selain itu saya sedang mengerjakan project web (tahap maintain) yang alhamdulillah keduanya membuat saya punya cukup uang setiap bulan dan bisa sedikit-sedikit menabung.
 
 Masa pandemi ini memang berat juga, semua orang merasakan dampak dari ini. Di lain sisi, saya rasa masa ini bisa jadi sebuah golden-time untuk belajar secara serius, karena sedikit sekali distraksi selain sosial media.
@@ -32,7 +32,7 @@ Saya cukup senang bisa belajar beberapa skill baru di masa ini, meskipun dengan 
 
 Dilema juga memilih antara belajar hal baru atau meneruskan penelitian untuk skripsi. Mungkin banyak yang menyarankan untuk keduanya, atau skripsi dulu, tapi akhirnya saya memilih jalan yang sepi dan saya harus bertanggungjawab atas keputusan ini kelak.
 
-##### Rencana Selanjutnya
+### Rencana Selanjutnya
 Project web saya sudah selesai dan berhasil di-deploy kemarin tanggal 21 Oktober. Saya cukup puas bisa dari awal membuat dan sekaligus mengaturnya ke tahap produksi dan maintain ke VPS. Dan di periode maintain tidak banyak hal yang dikerjakan.
 
 Selain itu bisnis desain saya alhamdulillah sudah bisa saya tinggalkan dan masih bisa berjalan sendiri. Oiya sebenarnya saya sudah membeli kursus selanjutnya yang ingin saya pelajari, tapi saya putuskan untuk melanjutkan skripsi saya di awal November nanti.

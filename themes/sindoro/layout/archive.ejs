@@ -1,0 +1,16 @@
+
+<h2 class="mb-4">Semua Tulisan</h2>
+
+<% page.posts.each(function(post) { %>
+    <article>
+      <div class="row">
+        <div class="col-lg-3">
+          <p class="pb-0 mb-0"><%- full_date(post.date, 'll') %></p>
+        </div>
+        <div class="col-lg-9 mb-3">
+          <a href="<%- url_for(post.path) %>" class=""><%- post.title %></a>
+        </div>
+      </div>
+    </article>
+<% }) %>
+<%- partial('partial/pagination', {type: 'page'}) %>

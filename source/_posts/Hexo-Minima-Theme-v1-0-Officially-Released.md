@@ -10,21 +10,21 @@ Minima preview, device image by Freepik
 - Demo [here](https://adisaktijrs.github.io/minima)
 - GitHub repository [here](https://github.com/adisaktijrs/hexo-theme-minima) (leave a star if you like it 😁)
 
-##### About Minima
+### About Minima
 Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using [Skeleton CSS](http://getskeleton.com/) boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries.
 
-###### Simplicity
+#### Simplicity
 Simplicity is a must! When I decided to move to Hexo for my personal blogging platform, the main reason was to find a simple and clean design, no fancy looks, unnecessary images and colors either. I'd like to have a blog that focuses on the content of my posts rather than turning readers attention to a 'cluttered' user interface. I found lots of beautiful themes on the Hexo themes page, but finally I decided to make my own.
 
-###### Lightweight
+#### Lightweight
 This 'lightweight' means the theme uses as few design stuff as possible. Fewer JavaScript and CSS files. Minima only uses Skeleton for the CSS-boilerplate and [nanobar.js](https://nanobar.jacoborus.codes/) for the top loading bar. The following is the 'gross' performance of my blog with the Minima theme:
 
 ![](Screenshot.png)
 
-###### Customization
+#### Customization
 Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it will be very easy for everyone to edit and customize the theme.
 
-##### Features
+### Features
 - Pass the core of [Hexo Theme Unit Test](https://github.com/hexojs/hexo-theme-unit-test)
 - Fully responsive design
 - Support post, page, tags, archives, and pagination
@@ -34,8 +34,8 @@ Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it w
 - [Disqus](https://disqus.com/) for post comments
 - Button for show comments section for faster posts loading
 ***
-#### Documentation
-##### Quick Start
+## Documentation
+### Quick Start
 Use the **stable** version
 1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip). And **rename the folder to minima** and place it at the **themes folder** of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
 
@@ -55,8 +55,8 @@ theme: minima
 {% endcodeblock %}
 1. That's all. To fully configure the Minima theme, follow the Configuration steps below!
 
-##### Site Configuration
-###### Code Highlighting
+### Site Configuration
+#### Code Highlighting
 Minima uses Prism.js to highlight the code. So **modify the _config.yml of your site** to somewhat like this below:
 {% codeblock "_config.yml" %}
 
@@ -81,7 +81,7 @@ $ hexo clean
 $ hexo server
 ```
 &nbsp;
-###### SEO Image Thumbnail for Shared-link
+#### SEO Image Thumbnail for Shared-link
 Minima uses meta data for image preview when your Post link is shared to social media. Here the example when you share your Post link to Twitter:
 ![](Screenshot2.png)
 To do that you must modify your **post_asset_folder variable** to true in your site _config.yml. See below:
@@ -103,7 +103,7 @@ thumbnail: YourImage.jpg #Here is the image preview
 Learn more about it [here.](https://hexo.io/docs/asset-folders.html)
 &nbsp;
 
-##### Theme Configuration
+### Theme Configuration
 You can customize many elements in your Minima blog by changing some variables in **minima/_config.yml**:
 {% codeblock "/themes/minima/_config.yml" lang:js %}
 #title in header
@@ -146,7 +146,7 @@ disqus_shortname: https-adisaktijrs-github-io
 {% endcodeblock %}
 
 &nbsp;
-##### Footnote:
+### Footnote:
 Thanks for using Minima for your Hexo blog theme. Hope you'll like it. If you have any problems with this theme you can ask me at the comments section below. And if you want to contribute to Minima, go ahead, fork and make a pull request! 😁
 
 October 12: Anyway this theme PR to Hexo themes page is currently under review.

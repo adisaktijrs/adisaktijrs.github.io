@@ -1,0 +1,29 @@
+
+<%
+    var title = '';
+    if (page.category) title = page.category;
+    if (page.tag) title = page.tag;
+    if (page.archive){
+        if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+        else title = "Archives";
+    }
+%>
+<% if(title) { %>
+   <h2 class="mb-4">Tulisan tentang — <%- title %></h2>
+<% } %>
+<% page.posts.each(function(item){ %>
+
+  <article>
+    <div class="row">
+
+      <div class="col-lg-3">
+        <p class="pb-0 mb-0"><%- full_date(item.date, 'll') %></p>
+      </div>
+      <div class="col-lg-9 mb-3">
+        <a href="<%- url_for(item.path) %>" class=""><%- item.title %></a>
+      </div>
+    </div>
+  </article>
+
+<% }); %>
+<%- partial('partial/pagination') %>
