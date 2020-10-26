@@ -1,5 +1,5 @@
 ---
-title: Hexo Minima Theme v1.0 is Officially Released
+title: "Hexo Theme: Minima v1.0 is Officially Released"
 date: 2020-10-11 10:09:47
 tags: [Product]
 thumbnail: minima.jpg
