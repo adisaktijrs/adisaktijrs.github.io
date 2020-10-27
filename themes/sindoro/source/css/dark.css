@@ -1,0 +1,8 @@
+body.darkmode {
+  background: #222831;
+  color: #efefef;
+}
+
+.darkmode h1,.darkmode h2,.darkmode h3,.darkmode h4,.darkmode h5,.darkmode h6 {
+  color: #eeeeee;
+}

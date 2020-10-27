@@ -17,9 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 }
 
-.darkmode h1,.darkmode h2,.darkmode h3,.darkmode h4,.darkmode h5,.darkmode h6 {
-  color: #eeeeee;
-}
 
 .little-svg {
   fill: #fff;
@@ -87,10 +84,7 @@ body {
   }
 }
 
-body.darkmode {
-  background: #222831;
-  color: #efefef;
-}
+
 
 
 .hidden {

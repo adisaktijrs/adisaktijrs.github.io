@@ -5,6 +5,40 @@
       <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
       <div onclick=setDarkMode(false) id="lightBtn" class=hidden>🌝</div>
     </h3>
+
+    <script>
+      if (localStorage.getItem('preferredTheme') == 'dark') {
+        setDarkMode(true)
+      }
+
+      function setDarkMode(isDark) {
+        var darkBtn = document.getElementById('darkBtn')
+        var lightBtn = document.getElementById('lightBtn')
+        if (isDark) {
+          lightBtn.style.display = "block"
+          darkBtn.style.display = "none"
+          localStorage.setItem('preferredTheme', 'dark');
+        } else {
+          lightBtn.style.display = "none"
+          darkBtn.style.display = "block"
+          localStorage.removeItem('preferredTheme');
+        }
+        document.body.classList.toggle("darkmode");
+
+
+      }
+
+      /* Open when someone clicks on the span element */
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+
     <button onclick="openNav()" class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span>
         <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-terminal" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -47,38 +81,3 @@
   </div>
 
 </div>
-
-
-
-<script>
-  if (localStorage.getItem('preferredTheme') == 'dark') {
-    setDarkMode(true)
-  }
-
-  function setDarkMode(isDark) {
-    var darkBtn = document.getElementById('darkBtn')
-    var lightBtn = document.getElementById('lightBtn')
-    if (isDark) {
-      lightBtn.style.display = "block"
-      darkBtn.style.display = "none"
-      localStorage.setItem('preferredTheme', 'dark');
-    } else {
-      lightBtn.style.display = "none"
-      darkBtn.style.display = "block"
-      localStorage.removeItem('preferredTheme');
-    }
-    document.body.classList.toggle("darkmode");
-
-
-  }
-
-  /* Open when someone clicks on the span element */
-  function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
-</script>

@@ -104,3 +104,20 @@ theme: sindoro
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+hfc_html:
+  enable: true
+  exclude:
+
+hfc_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+hfc_js:
+  enable: true
+  mangle: true
+  compress:
+  exclude:
+    - '*.min.js'
