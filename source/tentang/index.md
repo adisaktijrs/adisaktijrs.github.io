@@ -22,3 +22,6 @@ Saat memasuki bangku kuliah saya berpindah ke [WordPress](https://wordpress.com/
 Lalu, saat ini saya memutuskan untuk mengganti platform blogging saya ke situs statis untuk menggantikan [blog saya](https://adisaktijrs.wordpress.com/) sebelumnya. Saya menggunakan Hexo sebagai platform blogging yang sekaligus secara otomatis menghasilkan situs statis dan bisa ditempatkan di hosting [GitHub Pages](https://pages.github.com/). Theme yang saya gunakan ini saya sebut Minima (representasi dari desain minimalis) yang saya kembangkan sendiri.
 
 Nah, semoga apa yang saya tuliskan melalui blog ini memberikan manfaat meskipun sedikit. Terakhir, let's stay in touch melalui sosial media. Salam 😁
+
+#### Update
+26 Oktober 2020: Saya sudah mengganti tema blog ini dengan tema Sindoro (nama gunung yang pertama kali saya daki semasa SMA hehe). Tema ini saya kembangkan dengan berbasis dari [Minima](https://hexo.io/themes/#Minima), hanya saja belum saya buat repo-nya karena masih tahap pengembangan awal. Rencana akan saya buat open-source seperti Minima.
