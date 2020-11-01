@@ -37,7 +37,7 @@ Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it w
 ## Documentation
 ### Quick Start
 Use the **stable** version
-1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/archive/v1.0.zip). And **rename the folder to minima** and place it at the **themes folder** of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
+1. Download the [stable version here](https://github.com/adisaktijrs/hexo-theme-minima/releases). And **rename the folder to minima** and place it at the **themes folder** of your Hexo blog. New to Hexo? Watch this [tutorial](https://www.youtube.com/watch?v=A-muxF_6plc)
 
 Or you can use the **development** version&nbsp;
 1. Execute this command in your terminal (at your Hexo blog root dir):
@@ -149,4 +149,7 @@ disqus_shortname: https-adisaktijrs-github-io
 ### Footnote:
 Thanks for using Minima for your Hexo blog theme. Hope you'll like it. If you have any problems with this theme you can ask me at the comments section below. And if you want to contribute to Minima, go ahead, fork and make a pull request! 😁
 
+### Update:
 October 12: Anyway this theme PR to Hexo themes page is currently under review.
+October 13: Minima is officially released at Hexo themes official page.
+November 1: Release v1.1 see [changelog here](https://github.com/adisaktijrs/hexo-theme-minima/releases) 🌱
