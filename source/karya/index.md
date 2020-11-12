@@ -1,5 +1,5 @@
 ---
-title: Karya @adisaktijrs
+title: Karya
 date: 2020-09-27 12:05:32
 description: Karya Adi Sakti Jrs
 ---

@@ -6,7 +6,7 @@ title: "Hi Folks."
 owner: "Halo, saya Adi Sakti Jrs."
 info: "Seorang pelajar dan pengembang web"
 #description
-desc: "Saya menyukai desain, novel, dan pengembangan web. Di blog ini saya akan membagikan cerita, opini, dan sekaligus dokumentasi pribadi saya ketika sedang belajar hal baru. Selamat membaca! 😁"
+desc: "Saya menyukai desain, novel, dan pengembangan web. Di blog ini saya akan membagikan cerita, opini, dan sekaligus dokumentasi pribadi ketika saya sedang belajar hal baru. Selamat membaca! 😁"
 
 #menu
 menu:
@@ -14,7 +14,7 @@ menu:
   Tentang: /tentang
 
 #index/main page max show posts (in number)
-max_post: 3
+max_post: 2
 
 # social profile at the footer/bottom
 place: https://www.google.com/search?q=kendal+jawa+tengah

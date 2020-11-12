@@ -1,5 +1,5 @@
 ---
-title: Tentang @adisaktijrs
+title: Tentang
 date: 2020-09-27 12:05:36
 description: Tentang Adi Sakti Jrs
 ---

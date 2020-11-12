@@ -1,12 +1,11 @@
 img {
   max-width: 100%;
-  animation: transitionPlay 1.1s;
 
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #43434B
 }
 
@@ -14,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
   color: #333333;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 
@@ -68,7 +67,7 @@ body {
 }
 
 .trans {
-  animation: transitionPlay 0.5s;
+  animation: transitionPlay 0.3s;
 }
 
 
@@ -132,6 +131,11 @@ a:focus {
   color: #fff;
 }
 
+.tengah {
+  text-align: center;
+}
+
+
 @media (min-width: 991px) {
   .top {
     padding-top: 3rem;
@@ -150,8 +154,12 @@ a:focus {
     margin-right: 8%;
   }
 
+  .tengah {
+    text-align: left;
+  }
+
   body {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
