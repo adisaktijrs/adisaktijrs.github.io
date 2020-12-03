@@ -1,6 +1,6 @@
 img {
   max-width: 100%;
-
+  border-radius: 6px;
 }
 
 body {
@@ -127,6 +127,7 @@ a {
 a:hover,
 a:focus {
   background-position: 0 100%;
+  text-decoration: none;
   color: #fff;
 }
 
