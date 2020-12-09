@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
 }
 
+.judul {
+  font-size: 2rem;
+}
+
 
 .little-svg {
   fill: #fff;
@@ -160,6 +164,10 @@ a:focus {
 
   body {
     font-size: 1.2rem;
+  }
+
+  .judul {
+    font-size: 2.5rem;
   }
 }
 

@@ -8,10 +8,10 @@
     </div>
   </div>
   <div class="col my-auto tengah">
-    <h1 class="mb-0 pb-0">
+    <h1 class="mb-0 pb-0 judul">
       <span id="typed"></span>
     </h1>
-    <h1 class="mb-2" style="margin-top: 0px;">Saya <span class="main">Adi Sakti Jrs</span>.</h1>
+    <h1 class="mb-2 judul" style="margin-top: 0px;">Saya <span class="main">Adi Sakti Jrs</span>.</h1>
 
     <a class="ml-1 mr-1 mt-2" href="<%- theme.github %>" target="_blank" style="text-decoration: none;" rel="noreferrer">
       <svg style="width: 25px; fill: #63636F" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -71,11 +71,28 @@
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script>
+
+  var jam = new Date().getHours();
+  var kata = [];
+  if (jam < 4 ) {
+    kata = ['Halo!^600', 'Selamat datang!', 'Kok belum tidur?^900', '', 'Jaga kesehatan ya.']
+  } else if (jam < 10) {
+    kata = ['Halo!^600', 'Selamat pagi!', 'Yuh semangat!^900', '', 'Jangan lupa sarapan.']
+  } else if (jam < 15) {
+    kata = ['Halo!^600', 'Selamat siang!', 'Dan selamat bekerja!^900', '', 'Oiya', 'Sempatkan power nap.']
+  } else if (jam < 19) {
+    kata = ['Halo!^600', 'Selamat sore!', 'Gimana hari ini?^900', '', 'Mmm', 'Selamat menikmati waktu luang!']
+  } else if (jam < 22) {
+    kata = ['Halo!^600', 'Selamat malam!', '' , 'Jangan overthinking woi!^900', '', 'Minum air putih', 'Makan teratur', 'Dan jangan lupa bersyukur!' ]
+  } else if (jam < 24) {
+    kata = ['Halo!^600', 'Selamat datang!', 'Kok belum tidur?^900', '', 'Jaga kesehatan ya.', 'Good night!']
+  }
+
   var typed = new Typed('#typed', {
     // stringsElement: '#typed-strings'
-    strings: ['Halo!^400', 'Bonjour.', 'ꦱꦸꦒꦼꦁꦫꦮꦸꦃ^900','', 'こんにちは・^1200', 'Halo!'],
-    typeSpeed: 60,
+    strings: kata,
+    typeSpeed: 50,
     smartBackspace: true,
-    backSpeed: 50,
+    backSpeed: 40,
   });
 </script>
