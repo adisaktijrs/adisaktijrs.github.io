@@ -4,7 +4,9 @@ img {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Noto Serif', serif; */
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1rem;
   color: #43434B
 }
