@@ -1,98 +1,81 @@
 img {
-  max-width: 100%;
-  border-radius: 6px;
+    max-width: 100%;
+    border-radius: 6px;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  /* font-family: 'Noto Serif', serif; */
-  /* font-family: 'Noto Sans', sans-serif; */
-  font-size: 1rem;
-  color: #43434B
+    font-family: "Inter", sans-serif;
+    /* font-family: 'Noto Serif', serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-size: 1rem;
+    color: #43434b;
+    background-color: #fdfdff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  /* font-family: 'Karla', sans-serif; */
-  font-weight: 700;
-  color: #333333;
-  margin-top: 25px;
+p {
+    margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Karla', sans-serif; */
+    font-weight: 700;
+    color: #333333;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .judul {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
-
 .little-svg {
-  fill: #fff;
+    fill: #fff;
 }
 
 .main {
-  color:  #0FA0CE;
+    color: #0fa0ce;
 }
 
 .main2 {
-  font-size: 1.2em;
+    font-size: 1.4rem;
 }
 
+.judul-bawah {
+    display: none;
+}
 
 .mode {
-  /* position: absolute; */
-  display: block;
-  cursor: pointer;
+    /* position: absolute; */
+    display: block;
+    cursor: pointer;
 }
-
 
 /* blockquote */
 blockquote {
-  background-color: rgba(148, 148, 149, 0.08) ;
-  border-left: 8px solid #0FA0CE;
-  margin: 1.5em 0px;
-  padding: 1.1em 20px 1px 20px;
-  font-style: italic;
+    background-color: rgba(148, 148, 149, 0.08);
+    border-left: 8px solid #0fa0ce;
+    margin: 1.5em 0px;
+    padding: 1.3em 20px 1px 20px;
+    font-style: italic;
 }
 
 blockquote footer {
-  padding-bottom: 10px;
-  margin-top: -10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
 }
 
 blockquote footer cite:before {
-  content: "—";
-  padding: 0 0.5em;
+    content: "—";
+    padding: 0 0.5em;
 }
-
-
-
-
-
-/* Dark mode */
-/* body {
-  transition: all 0.3s ease-in-out;
-}
-
-.trans {
-  animation: transitionPlay 0.3s;
-}
-
-
-@keyframes transitionPlay {
-  from {
-    opacity: 0.5;
-    transform: translateY(12px);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-} */
-
-
-
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 /* New */
@@ -110,8 +93,8 @@ blockquote footer cite:before {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  background-position: 0 10%;
-  color: inherit;
+    background-position: 0 10%;
+    color: inherit;
 }
 
 hr {
@@ -120,113 +103,123 @@ hr {
 
 /* link */
 a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #0FA0CE;
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.0) 50%, #0FA0CE 50%);
-  transition:
-    background-position .2s ease-in-out,
-    color .2s ease-in-out;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #0fa0ce;
+    background-size: 100% 200%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        #0fa0ce 50%
+    );
+    transition: background-position 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  background-position: 0 100%;
-  text-decoration: none;
-  color: #fff;
+    background-position: 0 100%;
+    text-decoration: none;
+    color: #fff;
 }
 
 .tengah {
-  text-align: center;
-}
-
-
-@media (min-width: 991px) {
-  .top {
-    padding-top: 3rem;
-  }
-
+    text-align: center;
 }
 
 @media (min-width: 768px) {
+    .kiri {
+        padding-left: 15px;
+    }
 
-  .kiri {
-    padding-left: 15px;
-  }
+    .jarak {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
 
-  .jarak {
-    margin-left: 8%;
-    margin-right: 8%;
-  }
+    .tengah {
+        text-align: left;
+    }
 
-  .tengah {
-    text-align: left;
-  }
+    body {
+        font-size: 1.1rem;
+    }
 
-  body {
-    font-size: 1.2rem;
-  }
-
-  .judul {
-    font-size: 2.5rem;
-  }
+    .judul {
+      font-size: 2.5rem;
+    }
 }
 
+@media (min-width: 991px) {
+    .top {
+        padding-top: 3rem;
+    }
+
+    .judul-bawah {
+        display: inline;
+        font-size: 1.4rem;
+    }
+
+    .judul {
+        font-size: 3.8rem;
+    }
+}
 
 /* The Overlay (background) */
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: #0FA0CE;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #0fa0ce;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 /* Position the content inside the overlay */
 .overlay-content {
-  font-family: 'Karla', sans-serif;
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    font-family: "Karla", sans-serif;
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 30px;
-  color: #efefef;
-  display: block; /* Display block instead of inline */
-  transition: 0.2s; /* Transition effects on hover (color) */
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #efefef;
+    display: block; /* Display block instead of inline */
+    transition: 0.2s; /* Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #43434B;
+.overlay a:hover,
+.overlay a:focus {
+    color: #43434b;
 }
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 30px;
-    top: 15px;
-    right: 35px;
-  }
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 15px;
+        right: 35px;
+    }
 }
