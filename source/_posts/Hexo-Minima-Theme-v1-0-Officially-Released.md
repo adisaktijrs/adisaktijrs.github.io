@@ -11,7 +11,7 @@ Minima preview, device image by Freepik
 - GitHub repository [here](https://github.com/adisaktijrs/hexo-theme-minima) (leave a star if you like it 😁)
 
 ### About Minima
-Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using [Skeleton CSS](http://getskeleton.com/) boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries.
+Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using [Skeleton CSS](http://getskeleton.com/) boilerplate. It uses only CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries.
 
 #### Simplicity
 Simplicity is a must! When I decided to move to Hexo for my personal blogging platform, the main reason was to find a simple and clean design, no fancy looks, unnecessary images and colors either. I'd like to have a blog that focuses on the content of my posts rather than turning readers attention to a 'cluttered' user interface. I found lots of beautiful themes on the Hexo themes page, but finally I decided to make my own.
@@ -29,7 +29,8 @@ Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it w
 - Fully responsive design
 - Support post, page, tags, archives, and pagination
 - SEO: post meta description and images (appears in Facebook/Twitter shared-link)
-- Dark/light mode instant switch 🌚/🌝
+- [Customizable] icon Dark/light mode instant switch 🌑/☀️
+- [Customizable] theme color
 - Code highlighting with [Prism.js](https://prismjs.com/)
 - [Disqus](https://disqus.com/) for post comments
 - Button for show comments section for faster posts loading
@@ -112,9 +113,10 @@ title: "Hi Folks."
 #main info
 #owner
 owner: "I am Adi Sakti Jrs"
+email: test@test.test
 info: "A student and web developer from Indonesia 🇮🇩"
 #description
-desc: "This is Minima..."
+desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo."
 
 #menu
 menu:
@@ -124,23 +126,40 @@ menu:
 #index/main page max show posts (in number)
 max_post: 4
 
-# social profile at the footer/bottom
-place: https://www.google.com/search?q=kendal+jawa+tengah
-github: https://github.com/adisaktijrs
-instagram: https://www.instagram.com/adisaktijrs/
-twitter: https://twitter.com/adisaktijrs
+# Colors use hex color without #
+# Theme color
+tcolor: 0FA0CE
 
-# js
+# Define path to user css
+#(could be also located outside of theme)
+# Relative to source/ directory
+usercss: css/user.css
+
+# social profile at the footer/bottom
+footer: true
+placename: Earth
+placelink: https://en.wikipedia.org/wiki/Earth
+github: https://github.com/adisaktijrs
+linkedin: https://linkedin.com/in/adisaktijrs
+twitter: https://twitter.com/adisaktijrs
+instagram: https://instagram.com/adisaktijrs
+stackoverflow: https://stackoverflow.com/story/tobiasreithmeier
+
+# Misc
 nanobar: /js/nanobar.min.js
+switch_light: ☀️
+switch_dark: 🌑
 
 # favicon
 favicon: /images/favicon.png
+# thumbnail
+thumbnail: /images/thumbnail.jpg
 
 article:
   thumbnail: true
 
 # DISQUS comments (sign up to Disqus to get disqus_shortname)
-disqus_enabled: true
+disqus_enabled: false
 disqus_shortname: https-adisaktijrs-github-io
 
 {% endcodeblock %}
@@ -152,4 +171,5 @@ Thanks for using Minima for your Hexo blog theme. Hope you'll like it. If you ha
 ### Update:
 October 12: Anyway this theme PR to Hexo themes page is currently under review.
 October 13: Minima is officially released at Hexo themes official page.
-November 1: Release v1.1 see [changelog here](https://github.com/adisaktijrs/hexo-theme-minima/releases) 🌱
+November 1: Release v1.1 see [changelog here](https://github.com/adisaktijrs/hexo-theme-minima/releases/tag/v1.1)
+March 2, 2021: Release v2.0 see [changelog here](https://github.com/adisaktijrs/hexo-theme-minima/releases/tag/v2.0) 🌱
