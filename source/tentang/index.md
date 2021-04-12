@@ -4,7 +4,7 @@ date: 2020-09-27 12:05:36
 description: Tentang Adi Sakti Jrs
 ---
 <div class="text-center mb-4">
-  <img src="/images/adisak1.jpg" width="150" height="150" style="border-radius: 50%;"  />
+  <img src="/images/adisak.webp" alt="adisaktijrs" width="150" height="150" style="border-radius: 50%;"  />
 </div>
 
 <!-- ### Tentang Penulis -->

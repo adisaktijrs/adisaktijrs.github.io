@@ -30,7 +30,7 @@ h6 {
 }
 
 .judul {
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 
 .little-svg {
@@ -38,7 +38,7 @@ h6 {
 }
 
 .main {
-    color: #0fa0ce;
+    color: #0498c5;
 }
 
 .main2 {
@@ -58,7 +58,7 @@ h6 {
 /* blockquote */
 blockquote {
     background-color: rgba(148, 148, 149, 0.08);
-    border-left: 8px solid #0fa0ce;
+    border-left: 8px solid #0498c5;
     margin: 1.5em 0px;
     padding: 1.3em 20px 1px 20px;
     font-style: italic;
@@ -105,12 +105,12 @@ hr {
 a {
     color: inherit;
     text-decoration: underline;
-    text-decoration-color: #0fa0ce;
+    text-decoration-color: #0498c5;
     background-size: 100% 200%;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 50%,
-        #0fa0ce 50%
+        #0498c5 50%
     );
     transition: background-position 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -173,14 +173,15 @@ a:focus {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: #0fa0ce;
+    background-color: #0498c5;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 /* Position the content inside the overlay */
 .overlay-content {
-    font-family: "Karla", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
     position: relative;
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
