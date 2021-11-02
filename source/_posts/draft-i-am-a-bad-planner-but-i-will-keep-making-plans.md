@@ -4,7 +4,8 @@ date: 2020-12-23 23:55:51
 tags: [Draft]
 thumbnail: school.jpg
 ---
-![](school.jpg)
+{% asset_img school.jpg %}
+
 <span>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/collections/551207/school?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 {% blockquote %}

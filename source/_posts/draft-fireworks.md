@@ -4,7 +4,7 @@ date: 2021-01-21 22:09:46
 tags: [Draft]
 thumbnail: field.jpg
 ---
-![]( field.jpg)
+{% asset_img field.jpg "Ilustrasi tentang pilihan" %}
 <span>Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/H0rn5cQFurw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 {% blockquote %}

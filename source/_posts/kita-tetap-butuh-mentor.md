@@ -4,7 +4,7 @@ date: 2020-12-03 16:11:59
 tags: [Opini, Web]
 thumbnail: forest.jpg
 ---
-![](forest.jpg)
+{% asset_img forest.jpg %}
 
 <span>Photo by <a href="https://unsplash.com/@olipaulgibbs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Oli Gibbs</a> on <a href="https://unsplash.com/s/photos/forest-from-top?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 

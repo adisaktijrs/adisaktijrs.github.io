@@ -6,10 +6,11 @@ title: "Hi Folks."
 owner: "Halo, saya Adi Sakti Jrs."
 info: "Seorang pelajar dan pengembang web"
 #description
-desc: "Saya menyukai desain, novel, dan pengembangan web. Blog ini merupakan tempat saya membagikan tulisan acak, opini, dan dokumentasi pribadi ketika sedang belajar hal baru. Selamat membaca!"
+desc: "Saya menyukai desain, novel, dan pengembangan web. Blog ini merupakan tempat saya membagikan tulisan acak, opini, dan dokumentasi pribadi ketika sedang belajar hal baru."
 
 #menu
 menu:
+  Catatan: /archives
   Karya: /karya
   Tentang: /tentang
 

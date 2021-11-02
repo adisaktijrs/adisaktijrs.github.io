@@ -19,7 +19,7 @@ Simplicity is a must! When I decided to move to Hexo for my personal blogging pl
 #### Lightweight
 This 'lightweight' means the theme uses as few design stuff as possible. Fewer JavaScript and CSS files. Minima only uses Skeleton for the CSS-boilerplate and [nanobar.js](https://nanobar.jacoborus.codes/) for the top loading bar. The following is the 'gross' performance of my blog with the Minima theme:
 
-![](Screenshot.png)
+{% asset_img Screenshot.png "Minima site web.dev result" %}
 
 #### Customization
 Minima uses vanilla JavaScript, vanilla CSS, and [EJS](https://ejs.co/). So it will be very easy for everyone to edit and customize the theme.

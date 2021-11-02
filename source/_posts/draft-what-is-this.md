@@ -4,7 +4,8 @@ date: 2020-12-22 22:49:11
 tags: [Draft]
 thumbnail: leaf.jpg
 ---
-![](leaf.jpg)
+{% asset_img leaf.jpg %}
+
 <span>Photo by <a href="https://unsplash.com/@igorson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Igor Son</a> on <a href="https://unsplash.com/s/photos/leaf?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 {% blockquote %}

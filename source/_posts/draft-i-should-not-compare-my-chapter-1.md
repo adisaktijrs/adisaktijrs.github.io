@@ -4,7 +4,8 @@ date: 2020-12-27 12:20:33
 tags: [Draft]
 thumbnail: walking.jpg
 ---
-![](walking.jpg)
+{% asset_img walking.jpg %}
+
 <span>Photo by <a href="https://unsplash.com/@michelstock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Michel Stockman</a> on <a href="https://unsplash.com/s/photos/walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 {% blockquote %}

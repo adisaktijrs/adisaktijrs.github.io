@@ -4,8 +4,9 @@ date: 2021-01-04 23:05:18
 tags: [Draft]
 thumbnail: leaf.jpg
 ---
-![](leaf.jpg)
-<span>Photo by <a href="https://unsplash.com/@archiecarlson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Archie Carlson</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+{% asset_img leaf2.jpg %}
+
+Photo by <a href="https://unsplash.com/@wgzhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wengang Zhai</a> on <a href="https://unsplash.com/s/photos/leaf?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 {% blockquote %}
 Hi, this is a part of the [Draft article](https://adisaktijrs.github.io/2020/12/22/draft-what-is-this/) where I wrote random thoughts to learn writing in English. So bear with me.
@@ -38,7 +39,7 @@ I love this advice. I absolutely agree. In the end, the only person who cares an
 There aren’t many people who became successful through luck. If you want something, chances are, there’s a proven system for getting it. Follow those who have the results you want and you’ll likely get the same result.
 {% endblockquote %}
 
-Everybody marks it. We need a mentor, we need a good circle, we obviously need to learn stuff from the expert. That's why connections are one of the dominant factors in making people succeed. It's not always a direct aid from them, but it comes as a comprehensive arsenal for us to achieve things.
+We need a mentor! We need a good circle, we obviously need to learn stuff from the expert. That's why connections are one of the dominant factors in making people succeed. It's not always a direct aid from them, but it comes as a comprehensive arsenal for us to achieve things.
 
 ### You aren’t special and no one actually cares
 {% blockquote %}
