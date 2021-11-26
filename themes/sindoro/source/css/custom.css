@@ -1,13 +1,49 @@
 img {
     max-width: 100%;
     border-radius: 6px;
+    height: auto;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+.cover img {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAYAAAAb4BS0AAAAD0lEQVR42mOsLK5MY4ACABMHAc1sl8gWAAAAAElFTkSuQmCC);
+
+}
+
+@keyframes fadein {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
 }
 
 body {
-    /* font-family: "Inter", sans-serif; */
-    /* font-family: 'Noto Serif', serif; */
-    /* font-family: 'Noto Sans', sans-serif; */
-    /* font-size: 1rem; */
     color: #43434b;
     background-color: #fdfdff;
 }
@@ -119,7 +155,7 @@ a {
     text-decoration: underline;
     text-decoration-color: #0498c5;
     background-size: 100% 200%;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 50%, #0498c5 50%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #0498c5 50%);
     transition: background-position 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -159,30 +195,38 @@ a:hover, a:focus {
         margin-right: auto;
         text-align: left;
     }
+
     .p-margin img, .p-margin iframe {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     .kiri {
         padding-left: 15px;
     }
+
     .jarak {
         margin-left: 8%;
         margin-right: 8%;
     }
+
     .tengah {
         text-align: left;
     }
+
     .tengah-kiri {
         text-align: left;
     }
+
     .tengah-kanan {
         text-align: right;
     }
+
     body {
         font-size: 1.1rem;
     }
+
     .judul {
         font-size: 2.3rem;
     }
@@ -192,13 +236,16 @@ a:hover, a:focus {
     .top {
         padding-top: 2.6rem;
     }
+
     .judul-bawah {
         display: inline;
         font-size: 1.4rem;
     }
+
     .judul {
         font-size: 2.6rem;
     }
+
     .main2 {
         font-size: 1.4rem;
     }
@@ -273,6 +320,7 @@ a:hover, a:focus {
     .overlay a {
         font-size: 20px;
     }
+
     .overlay .closebtn {
         font-size: 30px;
         top: 15px;
