@@ -4,6 +4,7 @@ date: 2021-12-18 23:33:52
 tags: [Draft]
 thumbnail: paths.jpg
 ---
+
 {% asset_img paths.jpg %}
 
 <span>Photo by <a href="https://unsplash.com/@gcalebjones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb Jones</a> on <a href="https://unsplash.com/s/photos/forest-path?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>

@@ -3,49 +3,59 @@ title: Tentang
 date: 2020-09-27 12:05:36
 description: Tentang Adi Sakti Jrs
 ---
+
 <div class="text-center mb-4">
   <img src="/images/adisak.webp" alt="adisaktijrs" width="150" height="150" style="border-radius: 50%;"  />
 </div>
 
 <!-- ### Tentang Penulis -->
+
 Hi, it's me in a nutshell:
+<small><em>\*life gets in the way and the informations here are not up to date</em></small>
+
 ```js
 const ad = {
-    now: "a college student and free learning enjoyer",
-    languageILoveToUse: ["javascript", "php"],
-    spendingTimeWith: ["novel", "badminton", "chillin with the bois", "web dev", "designing stuff"],
+  now: 'a college student and free learning enjoyer',
+  languageILoveToUse: ['javascript', 'typescript', 'php'],
+  spendingTimeWith: [
+    'novel',
+    'badminton',
+    'chillin with the bois',
+    'web dev',
+    'designing stuff',
+  ],
 
-    // when i am alone, i love
-    makingStuffWith: {
-        frontEnd: {
-            css: ["bootstrap", "chakra-ui"],
-            js: ["react"]
-        },
-        backEnd: {
-            js: ["node", "express"],
-            php: ["laravel"]
-        },
-        designTools: {
-            bitmap: ["photoshop"],
-            vector: ["illustrator"]
-        }
+  // when i am alone, i love
+  makingStuffWith: {
+    frontEnd: {
+      css: ['bootstrap', 'chakra-ui', 'sass'],
+      js: ['react'],
     },
+    backEnd: {
+      js: ['node', 'express'],
+      php: ['laravel'],
+    },
+    designTools: {
+      bitmap: ['photoshop'],
+      vector: ['illustrator'],
+    },
+  },
 
-    // interested with this stuff, but not yet learning it lol
-    thingsIWannaLearn: ["tailwind", "golang", "cooking (for real!)"],
+  // interested with this stuff, but not yet learning it lol
+  thingsIWannaLearn: ['tailwind', 'golang', 'cooking (for real!)'],
 
-    // my other world
-    aFanOf: ["man city", "memes"]
+  // my other world
+  aFanOf: ['man city', 'memes'],
 };
 ```
-<br />
 
+<br />
 
 Saya Adi Sakti. Suffix 'Jrs' yang sering saya gunakan itu adalah suffix untuk para penggemar band [J-Rocks](https://id.wikipedia.org/wiki/J-Rocks). Iya, saya penggemar band tersebut sejak mengenal file .mp3 di zaman sekolah dasar dulu. Meskipun saya bukan orang yang fanatis pada band idola, tetapi suffix itu tetap saya gunakan hingga sekarang.
 
 Saya hobi membaca novel, bermain badminton, membuat desain grafis, dan berbagai hal tentang pengembangan web. Namun jika ditanya hal apa yang selalu saya tunggu, maka jawabannya adalah sepak bola. Saya penggemar [Manchester City](https://www.mancity.com/) sejak tahun 2011 hingga sekarang.
 
-Dalam bidang Ilmu Komputer, saya menekuni pengembangan web dengan menggunakan Bahasa [PHP](https://www.php.net/), Vanilla [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), dan [Node.js](https://nodejs.org/en/). Saya terkadang menggunakan framework [Express](https://expressjs.com/) + template engine [EJS](http://ejs.co/) untuk membuat Server Side Rendered (SSR) web. Saya juga menggunakan [Hexo](https://hexo.io/) sebagai Static Site Generators (SSG) untuk web statis. Untuk saat ini saya sedang belajar dan mendalami [React](https://reactjs.org/) dan [Laravel](https://laravel.com/).
+Dalam bidang Ilmu Komputer, saya menekuni pengembangan web dengan menggunakan Bahasa [PHP](https://www.php.net/), Vanilla [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), dan [Node.js](https://nodejs.org/en/). Saya terkadang menggunakan framework [Express](https://expressjs.com/) + template engine [EJS](http://ejs.co/) untuk membuat Server Side Rendered (SSR) web. Saya juga menggunakan [Hexo](https://hexo.io/) sebagai Static Site Generators (SSG) untuk web statis. Untuk saat ini saya sedang belajar dan mendalami [React](https://reactjs.org/) dan ekosistem di dalamnya.
 
 <!-- ### Tentang Blog
 Saya mulai menyukai blogging sejak kelas II Sekolah Menengah Atas. Dulu saya menggunakan platform [Blogger](https://www.blogger.com/), dan akhirnya tertarik dengan bahasa markup HTML, XML, dan CSS sehingga saya justru sibuk mengotak-atik template dibandingkan dengan membuat tulisan hehe.
