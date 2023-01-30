@@ -21,7 +21,7 @@ I already faced this kind of situation when I was in my second year of college f
 I've always admired people who are so passionate in their field.
 {% endblockquote %}
 
-Anyway, I think the easiest way that I can do right now is to focus on my bachelor thesis and graduate ASAP (I easily get distracted by so many things that amaze me, like new techs, new ways to generate money, and so on hehe). After finishing my degree, I guess it would open other doors that can lead me to another new stage of life while keep trying to plan stuff for my future. But why do I need that long-term goal? Ofc, to make me stay hungry to achieve it day by day, stay motivated, and get rid of my boredom.
+Anyway, I think the easiest way that I can do right now is to focus on my bachelor thesis and graduate ASAP (I easily get distracted by so many things that amaze me hehe). After finishing my degree, I guess it would open other doors that can lead me to another new stage of life while keep trying to plan stuff for my future. But why do I need that long-term goal? Ofc, to make me stay hungry to achieve it day by day, stay motivated, and get rid of my boredom.
 
 I hope I can stick to this plan, cause I couldn't bear with this boredom anymore. Wish me luck!
 
