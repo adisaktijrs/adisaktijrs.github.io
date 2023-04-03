@@ -4,6 +4,7 @@ date: 2021-01-21 22:09:46
 tags: [Draft]
 thumbnail: field.jpg
 ---
+
 {% asset_img field.jpg "Ilustrasi tentang pilihan" %}
 <span>Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/H0rn5cQFurw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
@@ -22,6 +23,7 @@ I don't like to listen to a random song because sometimes when I couldn't bear w
 Well, enough talking!
 
 ### Fireworks by DAOKO
+
 {% youtube -tKVN2mAKRI %}
 
 I accidentally found this song while I'm coding. I made my YouTube playlist plays random songs and didn't get me disturbed because I was totally focused on fixing tough bugs at that time. And in the middle of coding, I just got realized that it's beautiful. Now, even after few months passed, I still love to listen to this song, haha.
@@ -29,19 +31,21 @@ I accidentally found this song while I'm coding. I made my YouTube playlist play
 This song was featured in an anime movie called "Fireworks, Should We See It from the Side or the Bottom?" which telling us about a high school love story and its dilemma. It is a pretty good movie, but many people complaining about its obscure ending. It has 5.5 ratings from IMDb (not that bad) but if I could argue, it deserves higher ratings.
 
 ### A humble love story in high school
+
 Two things that made me love this song: First this song itself and second the movie! I couldn't lie, I missed college and high school life so bad. Since I didn't go to college a year ago due to pandemic, therefore I love watching some movies about college/school life, for the sake of nostalgia, lol.
 
 The reason why this movie special is that the humble love story it has. If you guys try to remember when we were in high school, the love story there was pretty simple: Always seeks time to be together, doing tasks together, having a nice little chit-chat, and so on.
 
 When we're getting older, love isn't the same anymore. We do need more commitment and preparation to dive into life after school. Now, love requires us more than just itself. It's pretty complicated. And that's why I feel like haven't ready yet to have an 'after-school-life' love.
 
-I have so many memories about love in high school, haha. I even have a date with one of the most adored girls in my school (for real haha). And at the end of high school, I meet my last girlfriend in high school (now my ex) and she was a popular girl in her school as well (we are from a different school).
+I have so many memories about love in high school, haha. Have silly love stories with some girls in my school lol, and at the end of high school, I (somehow) meet my last girlfriend in high school (now my ex) and she was a popular girl in her school (we are from a different school).
 
 That time was great, but don't get me wrong, I was a nerdy and shy boy at school but somehow active in some organizations, therefore I didn't date my crush/girlfriend like a common cool boy out there. My love stories were just as simple as this story in this movie.
 
 That's probably the reason why I still love to listen to this song. Because every time I played it, it reminds me of the movie that brings me many nostalgic love stories when I was in high school.
 
 ### End of nostalgic mumbo-jumbo
+
 It's nice to have some nostalgic memories when listening to music. But that's a past, and life is supposed to keep moving on. And it is good to keep memories in its deserved place.
 
 Anyway, since I mentioned my ex, I always hope she is well now. I couldn't lie, after she left me, I haven't had another girlfriend yet. I learned one big thing from my past love story with her: I haven't ready to love someone, even when I truly love her at that time, but I actually still being a silly ambitious person who just cares about my own life.
