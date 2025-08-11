@@ -106,18 +106,18 @@ deploy:
   type: ''
 
 
-hfc_html:
-  enable: true
-  exclude:
+# hfc_html:
+#   enable: true
+#   exclude:
 
-hfc_css:
-  enable: true
-  exclude:
-    - '*.min.css'
+# hfc_css:
+#   enable: true
+#   exclude:
+#     - '*.min.css'
 
-hfc_js:
-  enable: true
-  mangle: true
-  compress:
-  exclude:
-    - '*.min.js'
+# hfc_js:
+#   enable: true
+#   mangle: true
+#   compress:
+#   exclude:
+#     - '*.min.js'
