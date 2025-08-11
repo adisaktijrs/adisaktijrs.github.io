@@ -11,6 +11,7 @@
 <% if(title) { %>
    <h2 class="mb-4">Tulisan tentang — <%- title %></h2>
 <% } %>
+<div class="min-vh-40">
 <% page.posts.each(function(item){ %>
 
   <article>
@@ -27,3 +28,4 @@
 
 <% }); %>
 <%- partial('partial/pagination') %>
+</div>

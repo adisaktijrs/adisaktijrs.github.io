@@ -11,41 +11,41 @@ description: Tentang Adi Sakti Jrs
 <!-- ### Tentang Penulis -->
 
 Hi, it's me in a nutshell:
-<small><em>\*life gets in the way and the informations here are not up to date</em></small>
+<small><em>\*life gets in the way and the information here are not up to date</em></small>
 
 ```js
 const ad = {
-  now: 'a college student and free learning enjoyer',
-  languageILoveToUse: ['javascript', 'typescript', 'php'],
+  now: "a college student and free learning enjoyer",
+  languageILoveToUse: ["javascript", "typescript", "php"],
   spendingTimeWith: [
-    'novel',
-    'badminton',
-    'chillin with the bois',
-    'web dev',
-    'designing stuff',
+    "novel",
+    "badminton",
+    "chillin with the bois",
+    "web dev",
+    "designing stuff",
   ],
 
   // when i am alone, i love
   makingStuffWith: {
     frontEnd: {
-      css: ['bootstrap', 'chakra-ui', 'sass'],
-      js: ['react'],
+      css: ["bootstrap", "chakra-ui", "sass"],
+      js: ["react"],
     },
     backEnd: {
-      js: ['node', 'express'],
-      php: ['laravel'],
+      js: ["node", "express"],
+      php: ["laravel"],
     },
     designTools: {
-      bitmap: ['photoshop'],
-      vector: ['illustrator'],
+      bitmap: ["photoshop"],
+      vector: ["illustrator"],
     },
   },
 
   // interested with this stuff, but not yet learning it lol
-  thingsIWannaLearn: ['tailwind', 'golang', 'cooking (for real!)'],
+  thingsIWannaLearn: ["tailwind", "golang", "cooking (for real!)"],
 
   // my other world
-  aFanOf: ['man city', 'memes'],
+  aFanOf: ["man city", "memes"],
 };
 ```
 
