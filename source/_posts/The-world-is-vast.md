@@ -16,7 +16,7 @@ As usual, I went back to my hometown to celebrate the holiday with my family. I 
 
 This year, I have five days of "waiting" before Idul Fitri. The busiest days are usually the first through the third day of the celebration, so I don't have much to do during these first five days. Because of this precious free time, I've finally been able to contemplate everything I've done over the past few months.
 
-Since I moved to a new company, this first year has been incredibly packed. It's been the busiest year of my career so far (I'm serious, I'm not exaggerating! lol). I haven't even had any holiday trips or travels yet. The last one was in early 2025, more than a year ago! And oh I was supposed to have a family trip in November, but sadly, I got sick and couldn't join them :(
+Since I moved to a new company, this first year has been incredibly packed. It's been the busiest year of my career so far (I'm serious, I'm not exaggerating! lol). I haven't even had any holiday trips or travels yet. The last one was in early 2025, more than a year ago! And oh I was supposed to have a family trip in October, but sadly, I got sick and couldn't join them :(
 
 Fortunately, my current job requires me to do on-site observations and verifications, which forces me to get out of the office. I've had the opportunity to visit more than eight new cities, even though I could only explore them at night and sometimes not at all if I was too tired. So I can't really count that as a vacation.
 
