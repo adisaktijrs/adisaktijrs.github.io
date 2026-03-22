@@ -1,7 +1,7 @@
 ---
 title: Next steps
 date: 2022-12-25 17:38:20
-tags: [Draft]
+tags: [Notes]
 thumbnail: bridge.jpg
 ---
 

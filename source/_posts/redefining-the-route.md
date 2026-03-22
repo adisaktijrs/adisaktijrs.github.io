@@ -1,7 +1,7 @@
 ---
 title: Redefining the route
 date: 2021-12-18 23:33:52
-tags: [Draft]
+tags: [Notes]
 thumbnail: paths.jpg
 ---
 
